@@ -1,0 +1,46 @@
+.background-picture-container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	height: 500px;
+
+	background-color: red;
+}
+
+
+.main-header-container{
+	
+	position: relative;
+
+	margin: 5px auto;
+	
+	height: 50px;
+	width: 80%;
+	background-color: blue;
+}
+
+.main-content-container{
+	position: relative;
+
+	margin: 0 auto;
+	margin-top: 100px;
+
+	height: 300px;
+	width: 60%;
+	background-color: yellow;
+}
+
+footer{
+	
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	height: 100px;
+	
+
+	background-color: pink;
+}
