@@ -36,15 +36,21 @@
 .nav-bar li{
 	display: inline;
 	float: left;
-	border: 1px solid green;
+	border: 1px solid grey;
+	background-color: linear-gradient;
 	height: 40px;
 	padding-top: 10px;
 
-	background: linear-gradient;
+	background: grey;
+	background: -webkit-linear-gradient(to bottom, #52527a 0%, #52527a 50%,  #a3a3c2 50%, #a3a3c2 100%);
+	background:    -moz-linear-gradient(#52527a 0%, #52527a 50%,  #a3a3c2 50%, #a3a3c2 100%);
+	background: 		linear-gradient(#52527a 0%, #52527a 50%,  #a3a3c2 50%, #a3a3c2 100%);
 }
 
 .nav-bar li a{
-	margin: 0 10px;
+	margin: 0 25px;
+	color: white;
+	text-decoration: none;
 }
 
 .main-content-container{
