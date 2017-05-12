@@ -65,8 +65,8 @@
 }
 
 footer{
-	
-	position: absolute;
+	font-size: 11px;
+	position: relative;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -75,4 +75,27 @@ footer{
 	
 
 	background-color: pink;
+}
+
+.left-footer{
+	width: 50%;
+	float: left;
+}
+
+.right-footer{
+	width: 50%;
+	float: left;
+}
+
+.right-footer ul li{
+	display: inline;
+	float: left;
+}
+
+.right-footer ul li:after{
+	content: "|";
+}
+
+.right-footer ul li:last-of-type:after{
+	content: "";
 }
