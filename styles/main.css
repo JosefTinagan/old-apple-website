@@ -1,5 +1,9 @@
+body{
+	margin: 0;
+}
+
 .main-content-wrapper{
-	margin-bottom: 100px;
+	margin-bottom: 5px;
 }
 
 .background-picture-container{
@@ -44,7 +48,7 @@
 	background: grey;
 	background: -webkit-linear-gradient(to bottom, #52527a 0%, #52527a 50%,  #a3a3c2 50%, #a3a3c2 100%);
 	background:    -moz-linear-gradient(#52527a 0%, #52527a 50%,  #a3a3c2 50%, #a3a3c2 100%);
-	background: 		linear-gradient(#52527a 0%, #52527a 50%,  #a3a3c2 50%, #a3a3c2 100%);
+	background: 		linear-gradient(#707070 0%, #707070 50%,  #606060 50%, #606060 100%);
 }
 
 .nav-bar li a{
@@ -58,32 +62,54 @@
 
 	margin: 0 auto;
 	margin-top: 100px;
-
+	margin-bottom: 70px;
+	
 	height: 300px;
 	width: 60%;
-	background-color: yellow;
+
+	color: white;
 }
 
-footer{
-	font-size: 11px;
+.main-content-container p{
+	font-size: 24px;
+	text-align: center;
+}
+
+.main-content-container p:first-of-type{
+	font-size: 54px;
+}
+
+.teaser{
 	position: relative;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	background-color: blue;
+	height: 170px;
+	width: 100%;
+}
 
-	height: 50px;
+.teaser img{
+	margin-left: -5px;
+	width: 25.1%;
+}
+
+
+footer{
+	font-size: 9px;
+	position: relative;
+
 	
+	height: 50px;
+	width: 80%;
+	margin: 0 auto;
 
-	background-color: pink;
 }
 
 .left-footer{
-	width: 50%;
+	width: 45%;
 	float: left;
 }
 
 .right-footer{
-	width: 50%;
+	width: 55%;
 	float: left;
 }
 
@@ -94,6 +120,7 @@ footer{
 
 .right-footer ul li:after{
 	content: "|";
+	margin: 0 5px;
 }
 
 .right-footer ul li:last-of-type:after{
